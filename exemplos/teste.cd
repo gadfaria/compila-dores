@@ -1,0 +1,45 @@
+programa inicio
+    escreva "Programa teste para o Compila Dores\n\n";
+
+    inteiro a, b, c;
+    inteiro d = 0;
+
+    a = 10;
+    
+    escreva "Digite um valor para b \n";
+    leia b;
+
+    c = a + b;
+
+    escreva "\na = " escreva a escreva "\nb = " escreva b escreva "\nc = a + b = " escreva c;
+    escreva "\n\n";
+
+    escreva "Testando o PARA usando o valor digitado para b \n";
+    para(inteiro x=1; x <= b; x=x+1) comeca
+        escreva x escreva "\n";
+    termina
+
+    escreva "\n\n";
+
+    escreva "Testando o ENQUANTO usando o valor atribuido para a \n";
+    enquanto(d<a) comeca
+        escreva d escreva "\n";
+        d = d+1;
+    termina
+
+    escreva "\n";
+
+    se(b>10)comeca
+        escreva "B maior que 10";
+    termina
+    senao comeca
+        se(b==10) comeca
+             escreva "B igual a 10";
+        termina
+        senao comeca
+             escreva "B menor que 10";
+        termina
+    termina
+
+    escreva "\n";
+fim

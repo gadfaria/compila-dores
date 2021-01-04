@@ -1,0 +1,14 @@
+inteiro int
+real double
+inicio {
+fim }
+comeca {
+termina } 
+leia >>
+escreva <<
+para for
+enquanto while
+se if
+senao else
+mod %
+programa main()

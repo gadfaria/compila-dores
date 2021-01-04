@@ -1,0 +1,23 @@
+programa inicio
+    escreva "\nPrograma calcular a sequencia de Fibonacci\n\n";
+
+    inteiro a=1, b=1;
+    inteiro num, aux;
+
+    escreva "Digite um numero \n";
+    leia num;
+
+    se(num>2) comeca
+        escreva "1 " escreva " 1  ";
+    termina
+
+    enquanto(num>2) comeca
+        aux = a;
+        a = b;
+        b = b + aux;
+        escreva b escreva "  ";
+        num=num-1;
+    termina
+
+    escreva "\n";
+fim
