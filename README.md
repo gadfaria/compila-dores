@@ -1,24 +1,38 @@
-# Compila Dores 
-O código foi feito e testado no Ubuntu.
-Foi usado como base o compilador FULAN, desenvolvido por André Luiz de Souza Antonieto e Fúlvio Abrahão de Paula.
 
-## Requisito
-* libboost-regex
+# compila-dores
 
-## Como baixar
-### Windows
-* https://www.boost.org/doc/libs/1_55_0/more/getting_started/windows.html
-### Linux
-* sudo apt-get install libboost-regex-dev
-
-## Como executar
-Foram criados dois exemplos, teste e fibonnaci, que estão dentro da pasta exemplos.
-Para executa-los, execute no terminal na pasta raiz do projet:
-* make teste
-ou
-* make fibonnaci
+A copilate created in C using regex. The FULAN compiler developed by André Luiz de Souza Antonieto and Fúlvio Abrahão de Paula was used as a basis for the development of the project.
 
 
+## Requirement
+
+To run the copiler, you need ```libboost-regex```
+
+### How to download 
+
+#### Windows
+https://www.boost.org/doc/libs/1_55_0/more/getting_started/windows.html
+
+#### Linux
+```bash
+sudo apt-get install libboost-regex-dev
+```
+
+
+    
+## Examples
+
+Two examples were created, test and fibonnaci, which are inside the exemplos folder. To run them, run in the terminal in the project root folder:
+
+```bash
+make teste 
+or
+make fibonnaci
+```
 
 
 
+
+<h5 align="center">
+  ☕ Code and Coffee
+</h5>
