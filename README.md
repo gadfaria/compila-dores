@@ -1,7 +1,7 @@
 
 # compila-dores
 
-A copilate created in C using regex. The FULAN compiler developed by André Luiz de Souza Antonieto and Fúlvio Abrahão de Paula was used as a basis for the development of the project.
+A compiler created in C using regex. The FULAN compiler developed by André Luiz de Souza Antonieto and Fúlvio Abrahão de Paula was used as a basis for the development of the project.
 
 
 ## Requirement
